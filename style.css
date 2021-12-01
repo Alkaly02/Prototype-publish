@@ -88,7 +88,7 @@ main{
 /*### main -> techno ###*/
 #techno{
 	background-color: #EFECCA;
-	padding: 20px;
+	padding: 20px 20px 40px 20px;
 	width: 100%;
 }
 #techno h2, #techno ul, #pratique h2, #pratique > p,#team h2, #team p{
@@ -250,4 +250,20 @@ main{
 }
 .member img{
 	width: 100%;
+}
+
+/*//// footer ////*/
+footer{
+	padding: 30px;
+}
+footer h2{
+	text-align: center;
+}
+.foot-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.foot-item{
+	margin: 0px 50px;
 }
