@@ -15,12 +15,17 @@ nav ul{
 ul li{
 	list-style-type: none;
 }
-li > a{
+nav li > a{
 	text-decoration: none;
 	display: inline-block;
 	padding: 8px;
 	color: black;
 }
+nav li a:hover{
+	background-color: rgba(0, 0, 0, 0.08);
+	border-radius: 5px;
+}
+
 
 /*---- header ----*/
 header{
@@ -58,6 +63,7 @@ main{
 	margin: 0;
 	padding: 0;
 }
+/*### main -> formation ####*/
 #formation{
 	width: 100%;
 	padding: 70px 0px 20px 0px;
@@ -78,4 +84,95 @@ main{
 	padding: 0.5em;
 	border: 1px solid green;
 	border-radius: 2em;
+}
+/*### main -> techno ###*/
+#techno{
+	background-color: #EFECCA;
+	padding: 20px;
+	width: 100%;
+}
+#techno h2, #techno ul{
+	text-align: center;
+}
+#techno ul{
+	display: flex;
+	justify-content: center;
+}
+#techno ul > li{
+	margin: 10px;
+	padding: 5px;
+}
+#techno > div{
+	display: flex;
+	justify-content: center;
+}
+.techno-container{
+	width: 65%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.wordpress, .html-css, .canva, .js, .java, .inkscape, .adobe, .python{
+	width: 200px;
+	height: 160px;
+}
+.canva img, .inkscape img, .python img{
+	max-width: 40%;
+	margin: 0px auto;
+}
+.wordpress, .html-css, .canva, .js, .java, .inkscape, .adobe, .python{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.wordpress{
+	background-color: #CCFFE5;
+}
+.html-css{
+	background-color: #66B2FF;
+}
+.html-icon{
+	color: #F75200;
+}
+.css-icon{
+	color: #234AB5;
+}
+.canva{
+	background-color: #938B9B;
+}
+.js{
+	color: #FFBC00;
+	background-color: #5F9EA0;
+}
+.java,.java i{
+	color: red;
+	background-color: #89725B;
+}
+.java p{
+	color: black;
+}
+.inkscape{
+	background-color: #4EA9A0;
+}
+.adobe{
+	color: #FF73BF;
+	background-color: #2F93A2;
+}
+.python{
+	background-color: #DCECCA;
+}
+.wordpress p, .java p, .inkscape p{
+	margin-top: 0;
+	padding: 0;
+}
+#wordpress-bold{
+	font-weight: bold;	
+	font-size: 1.2em;
+}
+#blue-span{
+	color: #046380;
+}
+#small-case{
+	font-size: 0.7em;
 }
