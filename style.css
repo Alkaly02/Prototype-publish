@@ -91,7 +91,7 @@ main{
 	padding: 20px;
 	width: 100%;
 }
-#techno h2, #techno ul, #pratique h2, #pratique > p{
+#techno h2, #techno ul, #pratique h2, #pratique > p,#team h2, #team p{
 	text-align: center;
 }
 #techno ul{
@@ -223,4 +223,31 @@ main{
 }
 .rien{
 	margin-top: 40px;
+}
+/*### main -> team ###*/
+#team{
+	padding: 20px 0px 40px 0px;
+	background-color: #778E60;
+	color: white;
+}
+.members{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 60px;
+}
+.member{
+	width: 200px;
+	height: 250px;
+	text-align: center;
+	margin: 10px;
+	background-color: white;
+	color: black;
+	padding-bottom: 16px;
+}
+.homme2 img{
+	height: 200px;
+}
+.member img{
+	width: 100%;
 }
