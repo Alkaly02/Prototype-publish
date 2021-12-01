@@ -52,3 +52,30 @@ header{
 	background-color: #89725B;
 	padding: 15px;
 }
+
+/*++++ main ++++*/
+main{
+	margin: 0;
+	padding: 0;
+}
+#formation{
+	width: 100%;
+	padding: 70px 0px 20px 0px;
+}
+.cont-form{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.filiere{
+	width: 250px;
+	margin: 30px;
+	text-align: center;
+}
+.fili-icon i{
+	padding: 0.5em;
+	border: 1px solid green;
+	border-radius: 2em;
+}
