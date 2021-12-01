@@ -91,7 +91,7 @@ main{
 	padding: 20px;
 	width: 100%;
 }
-#techno h2, #techno ul{
+#techno h2, #techno ul, #pratique h2, #pratique > p{
 	text-align: center;
 }
 #techno ul{
@@ -175,4 +175,52 @@ main{
 }
 #small-case{
 	font-size: 0.7em;
+}
+
+/*### main -> pratique ###*/
+#pratique{
+	padding: 30px 0px;
+}
+.pratique-cont{
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+}
+.left, .right{
+	width: 250px;
+}
+.description{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.description p{
+	margin: 0;
+}
+.mere, .fille{
+	height: 7px;
+	border-radius: 10px;
+}
+.mere{
+	width: 100%;
+	background-color: #8FA3AD;
+}
+.fille{
+	background-color: #778E60;
+}
+.p-fille{
+	width: 100%;
+}
+.b-fille{
+	width: 80%;
+}
+.o-fille{
+	width: 90%;
+}
+.r-fille{
+	width: 70%;
+}
+.rien{
+	margin-top: 40px;
 }
